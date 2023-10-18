@@ -1,0 +1,28 @@
+*
+{
+    margin: 0px;
+}
+header
+{
+    height: 100px;
+    background-color: brown;
+}
+header ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+header ul li a
+{
+    color:white;
+    text-decoration: none;
+}
+section
+{
+    height: 500px;
+    background-color: gray;
+}
+footer{
+    height: 200px;
+    background-color: brown;
+}

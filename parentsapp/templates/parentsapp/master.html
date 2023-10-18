@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <marquee> <h1>Welcome in Django</h1></marquee>
+    <header>
+         <ul><li><a href="/parentsapp/">Home</a></li><li><a href="/parentsapp/aboutus">aboutus</a></li><li><a href="/parentsapp/services">Services</a></li><li><a href="/parentsapp/contactus">Contact</a></li><li><a href="/parentsapp/gallery">Gallery</a></li></ul>
+    </header>
+    <section>
+        {% block childcontent %}
+
+        {% endblock %}
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
