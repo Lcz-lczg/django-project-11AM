@@ -4,15 +4,29 @@
   <section class="about_section layout_padding ">
     <div class="container">
       <div class="row">
-        
-        <div class="col-md-12">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="/static/images/about-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
                 About Us
               </h2>
             </div>
-          
+            <p>
+              <h1>Edit Student Information</h1>
+              <form action="" method="post">
+                 {% csrf_token %}
+                 Name: <input type="text" name="txtname" value="{{key.name}}" /> <br><br>
+                 Phone: <input type="text" name="txtphone" value="{{key.phoneno}}" /> <br><br>
+                 Email: <input type="text" name="txtemail" value="{{key.email}}" /> <br><br>
+                 Message: <input type="text" name="txtmessage" value="{{key.message}}" /> <br><br>
+                 <input type="submit" value="Update" />
+              </form>
+            </p>
             <a href="">
               Read More
             </a>

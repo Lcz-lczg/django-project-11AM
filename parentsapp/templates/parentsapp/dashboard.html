@@ -1,6 +1,6 @@
 {% extends 'parentsapp/master.html' %}
 {% block middlesection %}
-
+  <a href="/parentsapp/signin">Logout</a>
   <section class="about_section layout_padding ">
     <div class="container">
       <div class="row">
@@ -9,10 +9,18 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                Welcome in Dashboard Page
               </h2>
             </div>
-          
+            <p>
+              <h1>View Student Information</h1>
+              <table border="1">
+                <tr><th>Name</th><th>PHONE </th><th>Email</th> <th>Message</th><th>Edit Student</th><th>Delete Student</th></tr>
+            {% for data in key %}
+               <tr><td>{{data.name}}</td><td>{{data.phoneno}} </td><td>{{data.email}}</td><td>{{data.message}}</td><td><a href="editstudent?id={{data.id}}">Edit</a></td><td><a href="deletestudent?id={{data.id}}">Delete</a></td></tr>
+            {% endfor %}
+          </table>
+            </p>
             <a href="">
               Read More
             </a>

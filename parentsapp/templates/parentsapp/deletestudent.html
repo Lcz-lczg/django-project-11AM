@@ -4,15 +4,29 @@
   <section class="about_section layout_padding ">
     <div class="container">
       <div class="row">
-        
-        <div class="col-md-12">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="/static/images/about-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
                 About Us
               </h2>
             </div>
-          
+            <p>
+              <h1>Are you sure to delete this record</h1>
+              <form action="" method="post">
+                 {% csrf_token %}
+                <p> Name: {{key.name}} </p><br>
+                <p>  Phone:{{key.phoneno}}</p><br>
+                <p>  Email:{{key.email}} </p><br>
+                <p> Message: {{key.message}} </p> <br>
+                 <input type="submit" value="Delete record" />
+              </form>
+            </p>
             <a href="">
               Read More
             </a>
