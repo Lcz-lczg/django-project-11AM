@@ -51,28 +51,27 @@ git clone https://github.com/Lcz-lczg/django-project-11AM.git
 
 ## 配置说明
 ### 创建虚拟环境：
-#### 在项目根目录打开cmd
-创建venv文件输入python -m venv venv
-#### 进入venv虚拟环境文件- cd venv
-进入- Scripts cd Scripts
-#### 启动虚拟环境
- 
-- Activate （activate）
-
--安装依赖：
+```
+打开项目根目录文件
+cd django-project-11AM
+在项目根目录打开cmd
+1.创建venv文件输入
+- python -m venv venv
+2.进入venv虚拟环境文件
+- cd venv
+3.进入Scripts 
+- cd Scripts（scripts）
+4.启动虚拟环境 
+- Activate
+5.安装依赖：
 - pip install -r requirements.txt
-  
-迁移数据库：
-
+6.迁移数据库：
 - python manage.py 
-
-创建管理者账号：
-
+7.创建管理者账号：
 - python manage.py createsuperuser
-
-运行项目：
-
+8.运行项目：
 - python manage.py runserver
+```
  
 ------
 
@@ -84,6 +83,14 @@ django-project-11AM-main/
 │   ├── static/       # CSS/JS/图片资源
 │   └── templates/    # 网页模板
 └── manage.py         # 管理脚本
+<!-- by 吴和师 -->
+---
+
+## 🚀 使用提示
+访问 管理后台 使用创建的管理员账号登录
+按 Ctrl+C 停止开发服务器
+
+生产环境建议使用 Nginx + Gunicorn 部署
 <!-- by 吴和师 -->
 
 
