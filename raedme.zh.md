@@ -17,6 +17,45 @@
 ### 3. 家长门户 (parentsapp)
 
 ---
+<!-- by 吴和师 -->
+### 📦 环境要求
+
+- - Python 3.8+
+- Django 3.2+
+- SQLite 3.0+
+------
+
+### 🛠️ 详细安装步骤
+克隆仓库：
+```bash
+git clone https://github.com/Lcz-lczg/django-project-11AM.git
+
+## 配置说明
+创建虚拟环境：
+在项目根目录打开cmd，输入python -m venv venv
+然后进入venv\Scripts\activate
+-安装依赖：
+```bash
+- pip install -r requirements.txt
+- 
+迁移数据库：
+```bash
+python manage.py migrate
+创建管理者账号
+```bash
+python manage.py createsuperuser
+运行项目
+```bash
+python manage.py runserver
+ ---
+------
+
+## 📁 项目结构
+
+
+
+
+=======
 ### 📦 环境要求
 
 - 
@@ -45,6 +84,7 @@
 ------
 
 ## 📁 项目结构
+
 
 
 
