@@ -1,3 +1,4 @@
+
 # Smart Learning & Connectivity Portal
 
 ## 🧾 project introduction  
@@ -32,3 +33,6 @@ This project is carefully crafted based on the Django framework, integrating thr
 - Stop Server: Ctrl + C
 - Production Deployment: Recommended Nginx + Gunicorn
 - Admin Access: Use credentials created via createsuperuser
+=======
+
+
