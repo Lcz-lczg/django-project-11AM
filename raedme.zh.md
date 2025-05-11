@@ -80,29 +80,27 @@ python manage.py runserver
 =======
 ## 配置说明
 ### 创建虚拟环境：
-#### 在项目根目录打开cmd
-创建venv文件输入python -m venv venv
-#### 进入venv虚拟环境文件- cd venv
-进入- Scripts cd Scripts
-#### 启动虚拟环境
- 
+```
+打开项目根目录文件
+cd django-project-11AM
+在项目根目录打开cmd
+1.创建venv文件输入
+- python -m venv venv
+2.进入venv虚拟环境文件
+- cd venv
+3.进入Scripts 
+- cd Scripts（scripts）
+4.启动虚拟环境 
 - Activate
-
--安装依赖：
+5.安装依赖：
 - pip install -r requirements.txt
-  
-迁移数据库：
-
+6.迁移数据库：
 - python manage.py 
-
-创建管理者账号：
-
+7.创建管理者账号：
 - python manage.py createsuperuser
-
-运行项目：
-
+8.运行项目：
 - python manage.py runserver
- 
+```
 ------
 
 ## 📁 项目结构
