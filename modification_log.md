@@ -182,3 +182,38 @@ HTTP 响应演示 ：提供基础 HTTP 响应演示，帮助技术人员和非�
 - To access the admin backend, log in using theadministrator account you created. During localdevelopment, press 'Ctrl + C' in the terminal to stop the server.
 - For production environments, it is recommendedto deploy the application using **Nginx + Gunicorn** for better performance, scalability, and security.
 ```
+
+李荣湖：
+修改
+```
+## 📁 项目结构
+django-project-11AM-main/
+├── coursestudent/    # 课程管理模块
+├── guestapp/         # 访客功能模块
+├── parentsapp/       # 主门户系统
+│   ├── static/       # CSS/JS/图片资源
+│   └── templates/    # 网页模板
+└── manage.py         # 管理脚本
+##ai修改后：##
+django-project/
+│
+├── 📁 coursestudent/  # Course Management Module
+│   ├── 📄 models.py
+│   └── 📄 views.py
+│
+├── 📁 guestapp/  # Guest Access Module
+│   ├── 📄 models.py
+│   └── 📄 views.py
+│
+├── 📁 parentsapp/  # Main Portal System
+│   ├── 📁 static/  # Static Resources
+│   │   ├── 📁 css/
+│   │   ├── 📁 js/
+│   │   └── 📁 images/
+│   │
+│   └── 📁 templates/  # HTML Templates
+│       ├── 📄 base.html
+│       └── 📄 index.html
+│
+└── 📄 manage.py  # Django Management Script
+```
