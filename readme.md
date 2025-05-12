@@ -63,7 +63,7 @@ Open a terminal in the project root directory
 8. Launch the project:
 - python manage.py runserver
 
-
+<!-- 李荣湖 -->
 # 📁 Project Structure
 django-project-11AM-main/
 ├── coursestudent/    # Course Management Module
@@ -72,6 +72,7 @@ django-project-11AM-main/
 │   ├── static/       # Static assets
 │   └── templates/    # Web Template
 └── manage.py         # System Management Script
+<!-- 李荣湖 -->
 <!-- by 张清璐 -->
 <!-- by 樊宇洋 -->
 # 🚀 Usage Tips
