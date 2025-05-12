@@ -65,6 +65,7 @@ Open a terminal in the project root directory
 
 <!-- 李荣湖 -->
 # 📁 Project Structure
+``` 
 django-project-11AM-main/
 ├── coursestudent/    # Course Management Module
 ├── guestapp/         # Guest Access Module
@@ -72,9 +73,9 @@ django-project-11AM-main/
 │   ├── static/       # Static assets
 │   └── templates/    # Web Template
 └── manage.py         # System Management Script
+``` 
 <!-- 李荣湖 -->
 <!-- by 张清璐 -->
-<!-- by 樊宇洋 -->
 # 🚀 Usage Tips
 - **Stop the Development Server**: Press `Ctrl + C` in the terminal.
 - **Production Deployment**: Use **Nginx + Gunicorn** for scalable and secure deployment in production environments.
