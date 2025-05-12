@@ -32,6 +32,28 @@ django-project-11AM-main/
 │   ├── static/       # CSS/JS/图片资源
 │   └── templates/    # 网页模板
 └── manage.py         # 管理脚本
+##ai修改后：##
+django-project/
+│
+├── 📁 coursestudent/  # Course Management Module
+│   ├── 📄 models.py
+│   └── 📄 views.py
+│
+├── 📁 guestapp/  # Guest Access Module
+│   ├── 📄 models.py
+│   └── 📄 views.py
+│
+├── 📁 parentsapp/  # Main Portal System
+│   ├── 📁 static/  # Static Resources
+│   │   ├── 📁 css/
+│   │   ├── 📁 js/
+│   │   └── 📁 images/
+│   │
+│   └── 📁 templates/  # HTML Templates
+│       ├── 📄 base.html
+│       └── 📄 index.html
+│
+└── 📄 manage.py  # Django Management Script
 <!-- 李荣湖 -->
 ## ai修改后：##
 🛠️ 安装步骤
