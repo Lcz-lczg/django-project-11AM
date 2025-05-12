@@ -217,3 +217,110 @@ django-project/
 │
 └── 📄 manage.py  # Django Management Script
 ```
+张清璐修改：
+
+修改前：
+```
+## 📦 Environment requires
+- Python 3.8+
+- Django 3.2+
+- SQLite 3.0+
+
+## 🛠️ Detailed installation steps
+### 1. Clone repository
+git clone https://github.com/Lcz-lczg/django-project-11AM.git cd django-project-11AM
+
+## Configuration Description
+### Create a virtual environment:
+Open the project root file
+cd django-project-11AM
+
+Open cmd in the project root directory
+
+1. Create Venv file input
+- python -m venv venv
+
+2. Enter the Venv virtual environment file
+- cd venv
+
+3. Enter Scripts
+- cd Scripts（scripts）
+
+4. Start the virtual environment
+- Activate
+
+5. Installation dependencies:
+- pip install -r requirements.txt
+
+6. Migrate the database:
+- python manage.py
+
+7. Create a manager account:
+- python manage.py createsuperuser
+
+8. Run the project:
+- python manage.py runserver
+
+
+# 📁 Project Structure
+django-project-11AM-main/
+├── coursestudent/    # Course management module
+├── guestapp/         # Guest function module
+├── parentsapp/       # Main portal system
+│   ├── static/       # Static assets
+│   └── templates/    # Web page template
+└── manage.py         # Management script
+```
+
+修改后：
+```
+## 📦 System Requirements
+- Python 3.8+
+- Django 3.2+
+- SQLite 3.0+
+
+## 🛠️ Installation Instructions
+### 1. Clone repository
+git clone https://github.com/Lcz-lczg/django-project-11AM.git cd django-project-11AM
+
+## Configuration Instructions
+### Create a virtual environment:
+Navigate to the project root directory
+cd django-project-11AM
+
+Open a terminal in the project root directory
+
+1. Set up a venv for the project
+- python -m venv venv
+
+2. Activate the virtual environment (venv)
+- cd venv
+
+3. Navigate to the Scripts directory in the virtual environment
+- cd Scripts（scripts）
+
+4. Activate the virtual environment
+- Activate
+
+5. Install dependencies:
+- pip install -r requirements.txt
+
+6. Migrate the database:
+- python manage.py
+
+7. Create a superuser account:
+- python manage.py createsuperuser
+
+8. Launch the project:
+- python manage.py runserver
+
+
+# 📁 Project Structure
+django-project-11AM-main/
+├── coursestudent/    # Course Management Module
+├── guestapp/         # Guest Access Module
+├── parentsapp/       # Primary Web Portal
+│   ├── static/       # Static assets
+│   └── templates/    # Web Template
+└── manage.py         # System Management Script
+```
