@@ -1,3 +1,4 @@
+
 吴和师修改：
 ```
 ### 🛠️ 详细安装步骤
@@ -380,4 +381,32 @@ django-project/
 
 │
 └── 📜 manage.py          # Django管理脚本
+```
+
+
+
+李青桦 修改
+```
+修改前：
+用户认证→User Authentication
+Django框架→Django Framework
+虚拟环境→VirtualEnvironment
+HTTP响应→HTTP Response
+迁移数据库→DatabaseMigration
+
+
+修改后：
+| 中文术语         | 英文术语                   |
+|------------------|---------------------------|
+| 响应式设计       | Responsive Design         |
+| 数据迁移         | Data Migration            |
+| 用户认证         | User Authentication       |
+| 静态资源         | Static Assets             |
+| 虚拟环境         | Virtual Environment       |
+| REST API         | REST API                  |
+| 依赖安装         | Dependency Installation   |
+| Django框架     | Django Framework        |
+| HTTP响应       | HTTP Response           |
+| 迁移数据库     | Database Migration      |
+=======
 ```
