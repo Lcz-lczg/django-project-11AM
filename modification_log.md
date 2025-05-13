@@ -1,3 +1,4 @@
+
 吴和师修改：
 ```
 ### 🛠️ 详细安装步骤
@@ -385,7 +386,7 @@ django-project/
 
 
 李青桦 修改
-
+```
 修改前：
 用户认证→User Authentication
 Django框架→Django Framework
@@ -407,3 +408,5 @@ HTTP响应→HTTP Response
 | Django框架     | Django Framework        |
 | HTTP响应       | HTTP Response           |
 | 迁移数据库     | Database Migration      |
+=======
+```
